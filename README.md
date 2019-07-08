@@ -10,7 +10,6 @@ npm i panhandler --save
 
 ```json
 "scripts": {
-    ...
     "postinstall": "panhandler <link>"
 }
 ```
