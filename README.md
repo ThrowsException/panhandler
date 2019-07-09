@@ -4,7 +4,7 @@ Display a donation message and link everytime someone installs your package
 
 ## Meta
 
-<a href="https://www.buymeacoffee.com/wGRizSO" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+[![Buy Me A Coffee](https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png)](https://www.buymeacoffee.com/wGRizSO)
 
 ## Install
 
