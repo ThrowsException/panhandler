@@ -1,23 +1,17 @@
 #!/usr/bin/env node
-let package = require(process.cwd() + "/package.json");
+const pkg = require(`${process.cwd()}/package.json`);
+const messages = require('./messages');
 
-let url =
+const url =
   process.argv[2] ||
-  "\u001B[31m...this developer would rather remain poor\u001b[39m";
-let phrases = [
-  `Do you like ${package.name}? Then pay up ${url}`,
-  `Are you enjoying ${package.name}? 
-  
-  Well im not. 
-  
-  I'm 6 months behind on my car payments
-  
-  Help Me ${url}
-  `
-];
+  '\u001B[31m...this developer would rather remain poor\u001b[39m';
 
-const output = `
-  ${phrases[Math.floor(Math.random() * phrases.length)]}
-`;
+function getRandomMessage() {
+  return messages[Math.floor(Math.random() * messages.length)];
+}
 
-console.log(output);
+(async () => {
+  const msgFn = getRandomMessage();
+  const msg = await msgFn(pkg.name, url);
+  console.log(msg);
+})();
