@@ -18,5 +18,8 @@
     "url": "https://github.com/ThrowsException/panhandler/issues"
   },
   "homepage": "https://github.com/ThrowsException/panhandler#readme",
-  "dependencies": {}
+  "dependencies": {
+    "dedent": "^0.7.0",
+    "phin": "^3.4.0"
+  }
 }
