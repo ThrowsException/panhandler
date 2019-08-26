@@ -17,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/ThrowsException/panhandler/issues"
   },
+  "keywords": [
+    "funding",
+    "sustainability"
+  ],
   "homepage": "https://github.com/ThrowsException/panhandler#readme",
   "dependencies": {
     "dedent": "^0.7.0",
