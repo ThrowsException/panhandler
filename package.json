@@ -2,12 +2,12 @@
   "name": "panhandler",
   "version": "0.0.4",
   "description": "The developer equivalent of panhandling",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Really?\" && exit 1",
     "postinstall": "node self-promotion.js "
   },
-  "bin": "index.js",
+  "bin": "index.mjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThrowsException/panhandler.git"
@@ -24,6 +24,9 @@
   "homepage": "https://github.com/ThrowsException/panhandler#readme",
   "dependencies": {
     "dedent": "^0.7.0",
-    "phin": "^3.4.0"
+    "phin": "^3.7.0"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }
