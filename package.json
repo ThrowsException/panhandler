@@ -1,6 +1,6 @@
 {
   "name": "panhandler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The developer equivalent of panhandling",
   "main": "index.mjs",
   "scripts": {
